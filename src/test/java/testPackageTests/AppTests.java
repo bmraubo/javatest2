@@ -21,4 +21,9 @@ public class AppTests {
         String testAge = "31";
         Assertions.assertEquals("You are 31 years old", App.yourAge(testAge));
     }
+
+    @Test
+    void testCI() {
+        Assertions.assertEquals(true,true);
+    }
 }
